@@ -6,6 +6,7 @@ const projects = [
   { number: '01', name: 'SurveyGuard', type: 'Privacy-preserving surveys', description: 'AI-powered survey management with role-aware workflows, analytics, and privacy-first data handling.', stack: ['FastAPI', 'React', 'TypeScript', 'ML'], repo: 'https://github.com/sundarammss/SurveyGuard' },
   { number: '02', name: 'AIS', type: 'Academic Intelligence System', description: 'An academic platform that turns unstructured educational material into searchable, useful knowledge.', stack: ['React', 'FastAPI', 'ChromaDB', 'Redis'], repo: 'https://github.com/sundarammss/AI-OS' },
   { number: '03', name: 'Campus Connect', type: 'Campus management', description: 'Role-secure student management, attendance, and administrative workflows built around robust APIs.', stack: ['Python', 'FastAPI', 'MySQL', 'JWT'], repo: 'https://github.com/sundarammss/backend' },
+  { number: '04', name: 'StreamChat', type: 'Real-time video broadcasting & chat', description: 'Real-time video broadcasting and chat platform with an actor-per-room architecture, bounded-channel message delivery with backpressure, WebRTC video, and room moderation with role-based access control.', stack: ['Rust', 'Tokio', 'Axum', 'React', 'PostgreSQL', 'Redis', 'WebSockets', 'WebRTC'], repo: 'https://github.com/sundarammss/StreamChat' },
 ]
 
 function App() {
